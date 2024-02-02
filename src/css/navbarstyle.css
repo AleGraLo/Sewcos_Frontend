@@ -1,0 +1,8 @@
+/* En tu archivo CSS global o en un archivo específico para el Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el Navbar se muestre por encima de otros contenidos */
+  }
+  
