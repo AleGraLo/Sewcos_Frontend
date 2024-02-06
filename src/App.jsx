@@ -1,27 +1,31 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import NavigationBar from './components/NavigationBar';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import ShopPage from './pages/ShopPage';
 import SewcoserPage from './pages/SewcoserPage';
 import CartPage from './pages/CartPage';
-// Importa otros componentes de página según sea necesario
+// Importa otras páginas aquí
 
 function App() {
   return (
     <Router>
-      <NavigationBar />
+      <NavBar/>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/shop" element={<ShopPage />} />
-        <Route path="/sewcoser" element={<SewcoserPage />} />
+        <Route path="/sewcoser/:id" element={<SewcoserPage />} />
         <Route path="/cart" element={<CartPage />} />
-        {/* Define más rutas según sea necesario */}
+
+        {/* Configura otras rutas aquí */}
       </Routes>
+      <Footer/>
     </Router>
   );
 }
 
 export default App;
+
+
 
 

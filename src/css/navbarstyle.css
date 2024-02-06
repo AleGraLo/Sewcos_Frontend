@@ -1,8 +1,25 @@
 /* En tu archivo CSS global o en un archivo específico para el Navbar */
 .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000; /* Asegura que el Navbar se muestre por encima de otros contenidos */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Asegura que el Navbar se muestre por encima de otros contenidos */
+}
+
+/* Ajusta el margen de la marca Sewcos */
+.navbar-brand {
+  margin-left: 1rem; /* Ajusta este valor según necesites */
+}
+
+/* Estilos para el botón de colapso del menú */
+.navbar-toggler {
+  margin-right: 1rem; /* Ajusta este valor según necesites */
+}
+
+/* Asegurándose de que el Navbar esté completo a la izquierda y el toggle a la derecha */
+@media (max-width: 991px) { /* Ajusta este valor basado en el punto en el que Bootstrap colapsa el Navbar */
+  .navbar {
+    justify-content: space-between;
   }
-  
+}
+

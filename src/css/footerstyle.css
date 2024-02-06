@@ -1,0 +1,17 @@
+/* footer.css */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Color de fondo */
+    padding: 10px 0; /* Padding reducido */
+    text-align: center;
+}
+
+/* Asumiendo que usas un div contenedor como tu contenido principal */
+.content-container {
+    padding-bottom: 50px; /* Ajusta esto según la altura de tu footer */
+}
+
+  
