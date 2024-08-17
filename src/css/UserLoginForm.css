@@ -1,0 +1,57 @@
+/* src/components/UserLoginForm.css */
+.login-page {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/src/assets/background\ beige2.jpg'); /* Ruta relativa a la imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.login-form {
+    margin-top: 200px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente para el formulario */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 95%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.btn-custom {
+    background-color: #25354e;
+    border-color: #25354e;
+    color: #ffffff; /* Color del texto */
+}
+
+.btn-custom:hover {
+    background-color: #1f2e45; /* Un tono más oscuro para el hover */
+    border-color: #1f2e45;
+}
+
+
+.login-page .login-title{
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #343a40;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}

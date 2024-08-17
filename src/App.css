@@ -12,3 +12,12 @@ html, body {
   flex: 1;
 }
 
+body {
+  background-image: url('/path/to/your/image.jpg');
+  background-size: cover; /* Cubre toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+  color: #333; /* Color de texto */
+  font-family: 'Arial', sans-serif;
+}
+
