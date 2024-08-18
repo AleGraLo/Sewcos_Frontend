@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import FormInput from "./FormInput";
+import FormInput from "../FormInput";
 
 const UserProfileForm = ({initialData}) => {
     const [profileData, setProfileData]= useState(initialData);

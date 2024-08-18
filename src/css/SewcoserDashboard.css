@@ -1,0 +1,148 @@
+/* Contenedor principal */
+.sewcoser-dashboard {
+    background-color: #d4bea0; /* Dunes Manor para un fondo neutro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 60px auto 40px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    padding-top: 80px; /* Asegúrate de que este padding no afecte al navbar */
+    padding-bottom: 60px;
+  }
+
+.sewcoser-dashboard>*{
+    width: 100%;
+}
+
+/* Estilo para los encabezados principales */
+.sewcoser-dashboard h2, .sewcoser-dashboard h3 {
+    color: #344b53; /* Sea Kelp */
+    margin-bottom: 15px;
+}
+
+/* Estilo para las secciones de estadísticas */
+.user-stats {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4; /* Fondo claro */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.stat-item {
+    flex: 1;
+    text-align: center;
+}
+
+.stat-item h3 {
+    margin-bottom: 5px;
+    color: #344b53; /* Sea Kelp */
+}
+
+.stat-item p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #c89454; /* Honey Yellow */
+}
+
+/* Estilo para la lista de productos */
+.product-list {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.product-item {
+    padding: 10px;
+    border-bottom: 1px solid #e7bca7; /* Starfish */
+}
+
+.product-item:last-child {
+    border-bottom: none;
+}
+
+.product-item h4 {
+    color: #344b53; /* Sea Kelp */
+    margin-bottom: 5px;
+}
+
+.product-item p {
+    color: #7f4d24; /* Milk Chocolate */
+}
+
+/* Estilo para el historial de transacciones */
+.transaction-history {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.transaction-item {
+    padding: 10px;
+    border-bottom: 1px solid #c89454; /* Honey Yellow */
+}
+
+.transaction-item:last-child {
+    border-bottom: none;
+}
+
+.transaction-details p {
+    color: #344b53; /* Sea Kelp */
+}
+
+/* Estilo para el feed de comunidad */
+.community-feed {
+    background-color: #e7bca7; /* Starfish */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.community-item {
+    padding: 10px;
+    border-bottom: 1px solid #7f4d24; /* Milk Chocolate */
+}
+
+.community-item:last-child {
+    border-bottom: none;
+}
+
+.community-item {
+    color: #344b53; /* Sea Kelp */
+}
+
+/* Estilo para la cabecera del perfil de usuario */
+.user-profile-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4; /* Fondo claro */
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.user-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid #c89454; /* Honey Yellow */
+}
+
+.user-name {
+    font-size: 2rem;
+    color: #344b53; /* Sea Kelp */
+}

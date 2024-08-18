@@ -1,0 +1,20 @@
+.user-profile-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-name {
+    font-size: 1.5rem;
+    color: #344b53; /* Usa los colores de tu paleta */
+}

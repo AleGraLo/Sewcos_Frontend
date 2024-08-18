@@ -1,18 +1,19 @@
-/* En tu archivo CSS global o en un archivo específico para el Navbar */
+/* Ajustes en el archivo CSS global o específico para el Navbar */
 .navbar {
   position: fixed;
   top: 0;
+  left: 0; /* Asegura que el navbar esté alineado a la izquierda */
   margin: 0;
   width: 100%;
   z-index: 1000; /* Asegura que el Navbar se muestre por encima de otros contenidos */
 }
 
-/* Ajusta el margen de la marca Sewcos */
+/* Ajusta el margen de la marca */
 .navbar-brand {
   margin-left: 1rem; /* Ajusta este valor según necesites */
 }
 
-Estilos para el botón de colapso del menú
+/* Estilos para el botón de colapso del menú */
 .navbar-toggler {
   margin-right: 1rem; /* Ajusta este valor según necesites */
 }
@@ -23,4 +24,6 @@ Estilos para el botón de colapso del menú
     justify-content: space-between;
   }
 }
+
+
 

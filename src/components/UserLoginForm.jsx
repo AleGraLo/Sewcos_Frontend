@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import FormInput from "../components/FormInput";
+import FormInput from "./FormInput";
 import '../css/UserLoginForm.css';
 
 const UserLoginForm = ()=> {

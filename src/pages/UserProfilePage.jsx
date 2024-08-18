@@ -1,5 +1,5 @@
 import React from "react";
-import UserProfileDashboard from '../components/UserProfileDashboard';
+import UserProfileDashboard from '../components/user/UserProfileDashboard';
 
 const UserProfilePage = () => {
     return (

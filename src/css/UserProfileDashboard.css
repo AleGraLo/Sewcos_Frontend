@@ -1,10 +1,11 @@
 .user-profile-dashboard {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh; /* Cambiado de height a min-height */
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 50px; /* Añadido margen inferior */
     background-color: #d4bea0; /* Dunes Manor */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -75,4 +76,25 @@
     border-radius: 4px;
     margin-bottom: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*Avatar*/
+.user-avatar-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.user-avatar-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+}
+
+.user-avatar-card p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
 }

@@ -1,0 +1,29 @@
+.transaction-history {
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.transaction-history h3 {
+    margin-bottom: 10px;
+    color: #344b53;
+}
+
+.transaction-list {
+    list-style: none;
+    padding: 0;
+}
+
+.transaction-item{
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.transaction-item:last-child {
+    border-bottom: none;
+}
+
+.transaction-details p {
+    margin:5px 0
+}
