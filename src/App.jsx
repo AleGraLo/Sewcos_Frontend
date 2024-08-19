@@ -10,6 +10,8 @@ import UserLoginForm from './components/UserLoginForm';
 import UserProfileForm from './components/user/UserProfileForm';
 import UserProfilePage from './pages/UserProfilePage';
 import SewcoserDashboard from './pages/SewcoserDashboard';
+import AdminDashboard from './pages/AdminDashboard';
+import CoursePage from './pages/CoursPage';
 // Importa otras páginas aquí
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
         <Route path="/shop" element={<ShopPage />} />
         <Route path="/sewcoser" element={<SewcoserDashboard />} />
         <Route path="/user-profile" element={<UserProfilePage />} />
+        <Route path="/admin" element={<AdminDashboard />} />
+        <Route path="/cours" element={< CoursePage />} />
         <Route path="/cart" element={<CartPage />} />
         <Route path="/register" element={<UserRegistrationForm />} />
         <Route path="/login" element={<UserLoginForm />} />
