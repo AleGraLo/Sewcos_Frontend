@@ -1,0 +1,61 @@
+/* Estilo general para la página de tendencias */
+.container {
+    padding: 2rem 0;
+}
+
+/* Estilo para el encabezado principal */
+h1.display-4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #343a40; /* Un gris oscuro */
+}
+
+/* Estilo para las tarjetas de publicaciones */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera para las tarjetas */
+    border: none; /* Sin borde */
+    transition: transform 0.3s ease; /* Efecto al pasar el ratón */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Cambia el tamaño de la tarjeta al pasar el ratón */
+.card:hover {
+    transform: translateY(-10px); /* Desplaza la tarjeta hacia arriba */
+}
+
+/* Estilo para los títulos de las tarjetas */
+.card-title {
+    font-size: 1.5rem;
+    color: #007bff; /* Color azul */
+    margin-bottom: 1rem;
+}
+
+/* Estilo para el contenido de las tarjetas */
+.card-text {
+    font-size: 1rem;
+    color: #6c757d; /* Color gris */
+}
+
+/* Margen inferior entre las tarjetas */
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+/* Estilo para los enlaces dentro de las tarjetas, si los hay */
+.card a {
+    color: #007bff; /* Azul */
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* Para dispositivos móviles, asegurar que las tarjetas ocupen el 100% del ancho */
+@media (max-width: 576px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+}

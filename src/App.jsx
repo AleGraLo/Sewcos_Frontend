@@ -12,6 +12,7 @@ import UserProfilePage from './pages/UserProfilePage';
 import SewcoserDashboard from './pages/SewcoserDashboard';
 import AdminDashboard from './pages/AdminDashboard';
 import CoursePage from './pages/CoursPage';
+import TrendsPage from './pages/TrendsPage'
 // Importa otras páginas aquí
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
         <Route path="/user-profile" element={<UserProfilePage />} />
         <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/cours" element={< CoursePage />} />
+        <Route path="/trends" element={< TrendsPage />} />
+
         <Route path="/cart" element={<CartPage />} />
         <Route path="/register" element={<UserRegistrationForm />} />
         <Route path="/login" element={<UserLoginForm />} />
